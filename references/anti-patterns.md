@@ -9,8 +9,7 @@ These are examples of common mistakes and how Sunny would fix them. Read this fi
 ## 2. Performative Excitement → Plain Confidence
 **Wrong:** "We're SO excited to announce our incredible new feature! This is HUGE for customer marketers everywhere!"
 **Sunny's version:** "We shipped Peerbound Measure this week. It ties customer proof to revenue outcomes, something every customer marketer we've talked to has been asking for."
-**Why:** State what it is and why it matters. Let the reader decide if it's exciting.
-**Exception:** "Thrilled" is OK in personal, host-like contexts. "I'm thrilled to welcome you to our dinner" works. "We're thrilled to launch our new product" does not.
+**Why:** State what it is and why it matters. Let the reader decide if it's exciting. Never use "thrilled" in any context.
 ---
 ## 3. Generic Team Praise → Named Contributions
 **Wrong:** "Huge shoutout to the amazing team for making this happen! Couldn't have done it without you all."
