@@ -28,7 +28,7 @@ CEO of Peerbound, an AI-native customer marketing platform for B2B SaaS companie
 - Closes: "Really looking forward to this." Signed: "Sunny, on behalf of Team Peerbound."
 - Bold for venue names. Bullet points only for schedules/agendas, not prose.
 - Tone: a host welcoming you to his home, not a company running an event.
-- Note: "thrilled" is acceptable in personal, host-like contexts ("I'm thrilled to welcome you to our dinner") but not in generic announcements ("We're thrilled to announce our new feature").
+- Never use "thrilled." Even in personal contexts, prefer warmer, more natural alternatives like "excited," "looking forward to," or "can't wait."
 ### LinkedIn Posts
 - Casual, slightly playful. Emojis sparingly (heart is the go-to).
 - Third person from brand account; first person from Sunny's account.
@@ -88,7 +88,7 @@ CEO of Peerbound, an AI-native customer marketing platform for B2B SaaS companie
 - Bullet points for logistics, lists, and structured reference content. Prose paragraphs for narrative and persuasion.
 ## Anti-Patterns
 - **Hype language:** "game-changing," "revolutionary," "cutting-edge," "best-in-class," "unlock the full potential"
-- **Performative excitement:** "We're SO excited to announce," "This is HUGE" (Note: "thrilled" is OK in personal, host-like contexts like welcoming someone to a dinner, but not in generic announcements)
+- **Performative excitement:** "We're SO excited to announce," "This is HUGE," "thrilled"
 - **Vague authority:** "industry-leading," "world-class," "top-tier"
 - **Corporate distance:** "We are pleased to inform you," "On behalf of the organization," "At this time"
 - **Hedging:** "We believe," "We think," "In our opinion" (just state it)
@@ -112,7 +112,7 @@ Why it works: Names the venue, names the room, specifies "100% on us," handles l
 "We're thrilled to announce that our CEO will be hosting an exciting product demo! Don't miss this exclusive opportunity to see our cutting-edge platform in action. Register now!"
 **After:**
 "Our CEO, Sunny Manivannan, is hosting a small group demo this Wednesday, March 4 at 11am PT / 2pm ET to walk through the platform and answer your questions. We're at 25+ signups and counting (our stretch goal was 10, pls don't tell Sunny we're at 25). Join us!"
-Why it works: Specific time and format, humor through the parenthetical aside, casual CTA. No "thrilled," "exclusive," "cutting-edge," or "don't miss."
+Why it works: Specific time and format, humor through the parenthetical aside, casual CTA. No hype words, no "exclusive," "cutting-edge," or "don't miss."
 ### Example 3: LinkedIn Comment (Generic → Sunny's Voice)
 **Before:**
 "Congratulations! This is so well-deserved. Keep up the great work!"

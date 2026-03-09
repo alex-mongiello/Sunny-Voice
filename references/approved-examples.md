@@ -4,7 +4,7 @@ These are real examples of content Sunny has written or approved across channels
 ## Emails to Clients/Prospects
 ### Example: CMA Community Dinner Invitation
 Hi everyone,
-Sunny here, CEO at Peerbound. I'm thrilled to welcome you to our CMA community dinner on February 19. We have some exciting updates.
+Sunny here, CEO at Peerbound. I'm so excited to welcome you to our CMA community dinner on February 19. We have some great updates.
 We now have RSVPs from 15 of the best customer marketers in NYC (full list in the meeting invite), and I can't wait for everyone to meet one another.
 To make the evening extra special, we've reserved a private room at **Crown Shy**, a Michelin-star restaurant in the Financial District (ground floor of 70 Pine Street). If you need an UberX to or from the venue, we've got you covered. Here's a voucher on us: [link].
 Here's the plan:
