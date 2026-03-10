@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 5 Stages of Building Your Own Customer Evidence System</title>
+<style>
+  /* ==============================================
+     PEERBOUND BRAND COLORS — UPDATE THESE
+     Replace with actual Peerbound hex codes.
+     ============================================== */
+  :root {
+    --brand-primary: #4F46E5;      /* Indigo — replace with Peerbound primary */
+    --brand-primary-dark: #3730A3;  /* Darker shade */
+    --brand-primary-light: #818CF8; /* Lighter shade */
+    --brand-accent: #F59E0B;        /* Amber accent — replace with Peerbound accent */
+    --brand-accent-light: #FCD34D;
+    --brand-bg-dark: #1E1B4B;       /* Deep navy bg */
+    --brand-bg-medium: #312E81;
+    --brand-text-light: #F8FAFC;
+    --brand-text-muted: #C7D2FE;
+    --brand-surface: #FFFFFF;
+    --slide-width: 1080px;
+    --slide-height: 1350px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #0F0D1A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .slide-label {
+    color: #94A3B8;
+    font-size: 14px;
+    margin-bottom: -30px;
+    font-family: monospace;
+  }
+
+  .slide {
+    width: var(--slide-width);
+    height: var(--slide-height);
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  /* ==================== SLIDE 1: COVER ==================== */
+  .slide-cover {
+    background: linear-gradient(160deg, var(--brand-bg-dark) 0%, var(--brand-bg-medium) 50%, var(--brand-primary) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    text-align: center;
+  }
+
+  .slide-cover .stage-icon {
+    font-size: 72px;
+    margin-bottom: 40px;
+  }
+
+  .slide-cover .subtitle {
+    font-size: 28px;
+    color: var(--brand-accent);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+
+  .slide-cover h1 {
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--brand-text-light);
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+
+  .slide-cover .cover-subtext {
+    font-size: 26px;
+    color: var(--brand-text-muted);
+    line-height: 1.5;
+    max-width: 700px;
+  }
+
+  .slide-cover .brand-footer {
+    position: absolute;
+    bottom: 60px;
+    font-size: 22px;
+    color: var(--brand-text-muted);
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+
+  .slide-cover .swipe-hint {
+    position: absolute;
+    bottom: 110px;
+    font-size: 18px;
+    color: var(--brand-primary-light);
+    opacity: 0.7;
+  }
+
+  /* ==================== STAGE SLIDES (2-6) ==================== */
+  .slide-stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    text-align: center;
+  }
+
+  .slide-stage .stage-number {
+    font-size: 160px;
+    font-weight: 900;
+    opacity: 0.08;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    color: var(--brand-text-light);
+  }
+
+  .slide-stage .emoji-large {
+    font-size: 120px;
+    margin-bottom: 48px;
+  }
+
+  .slide-stage .stage-label {
+    font-size: 22px;
+    color: var(--brand-accent);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .slide-stage h2 {
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--brand-text-light);
+    margin-bottom: 48px;
+    line-height: 1.15;
+  }
+
+  .slide-stage .quote-block {
+    background: rgba(255, 255, 255, 0.06);
+    border-left: 6px solid var(--brand-accent);
+    border-radius: 0 16px 16px 0;
+    padding: 40px 48px;
+    max-width: 820px;
+    width: 100%;
+  }
+
+  .slide-stage .quote-text {
+    font-size: 36px;
+    color: var(--brand-text-light);
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+
+  .slide-stage .progress-dots {
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    gap: 12px;
+  }
+
+  .slide-stage .progress-dots .dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .slide-stage .progress-dots .dot.active {
+    background: var(--brand-accent);
+    width: 40px;
+    border-radius: 7px;
+  }
+
+  .slide-stage .brand-mark {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size: 20px;
+    color: var(--brand-text-muted);
+    font-weight: 700;
+    letter-spacing: 2px;
+    opacity: 0.5;
+  }
+
+  /* Slide-specific backgrounds */
+  .stage-denial {
+    background: linear-gradient(160deg, #1a1637 0%, #1E1B4B 60%, #2D2A6E 100%);
+  }
+  .stage-anger {
+    background: linear-gradient(160deg, #2D1320 0%, #4C1130 50%, #7C2D12 100%);
+  }
+  .stage-bargaining {
+    background: linear-gradient(160deg, #1a1637 0%, #312E81 60%, #4338CA 100%);
+  }
+  .stage-depression {
+    background: linear-gradient(160deg, #0C0E17 0%, #111827 60%, #1F2937 100%);
+  }
+  .stage-acceptance {
+    background: linear-gradient(160deg, #064E3B 0%, #065F46 50%, #047857 100%);
+  }
+
+  /* Depression slide: mock Slack channel */
+  .slack-mock {
+    background: #1A1D21;
+    border-radius: 16px;
+    width: 780px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+    text-align: left;
+  }
+
+  .slack-header {
+    background: #1A1D21;
+    border-bottom: 1px solid #35373B;
+    padding: 20px 28px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .slack-header .hash {
+    color: #9B9D9F;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .slack-header .channel-name {
+    color: #D1D2D3;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .slack-header .members {
+    color: #9B9D9F;
+    font-size: 16px;
+    margin-left: auto;
+  }
+
+  .slack-body {
+    padding: 60px 28px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slack-empty-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.4;
+  }
+
+  .slack-empty-text {
+    color: #9B9D9F;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .slack-empty-text strong {
+    color: #D1D2D3;
+  }
+
+  .slack-input {
+    border-top: 1px solid #35373B;
+    padding: 18px 28px;
+    color: #6B6C6E;
+    font-size: 17px;
+  }
+
+  /* ==================== SLIDE 7: CLOSING CTA ==================== */
+  .slide-cta {
+    background: linear-gradient(160deg, var(--brand-bg-dark) 0%, var(--brand-primary-dark) 50%, var(--brand-primary) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    text-align: center;
+  }
+
+  .slide-cta .or-text {
+    font-size: 28px;
+    color: var(--brand-text-muted);
+    margin-bottom: 48px;
+    font-weight: 500;
+  }
+
+  .slide-cta h2 {
+    font-size: 58px;
+    font-weight: 800;
+    color: var(--brand-text-light);
+    line-height: 1.2;
+    margin-bottom: 40px;
+    max-width: 800px;
+  }
+
+  .slide-cta .cta-date {
+    font-size: 36px;
+    color: var(--brand-accent);
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .slide-cta .cta-event {
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--brand-text-light);
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+  }
+
+  .slide-cta .cta-button {
+    display: inline-block;
+    background: var(--brand-accent);
+    color: var(--brand-bg-dark);
+    font-size: 28px;
+    font-weight: 800;
+    padding: 24px 64px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+  }
+
+  .slide-cta .brand-footer {
+    position: absolute;
+    bottom: 60px;
+    font-size: 22px;
+    color: var(--brand-text-muted);
+    letter-spacing: 3px;
+    font-weight: 600;
+  }
+
+  /* Print-friendly: one slide per page */
+  @media print {
+    body { padding: 0; gap: 0; background: white; }
+    .slide-label { display: none; }
+    .slide { page-break-after: always; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== SLIDE 1: COVER ==================== -->
+<p class="slide-label">Slide 1 / 7 — Cover</p>
+<div class="slide slide-cover">
+  <div class="stage-icon">🪦</div>
+  <div class="subtitle">A LinkedIn Carousel</div>
+  <h1>The 5 Stages of Building Your Own Customer Evidence System</h1>
+  <div class="cover-subtext">
+    A grief counseling session for every customer marketer who's tried to "just build it in-house."
+  </div>
+  <div class="swipe-hint">Swipe &rarr;</div>
+  <div class="brand-footer">PEERBOUND</div>
+</div>
+
+<!-- ==================== SLIDE 2: DENIAL ==================== -->
+<p class="slide-label">Slide 2 / 7 — Stage 1: Denial</p>
+<div class="slide slide-stage stage-denial">
+  <div class="brand-mark">PEERBOUND</div>
+  <div class="stage-number">1</div>
+  <div class="emoji-large">😌</div>
+  <div class="stage-label">Stage 1</div>
+  <h2>Denial</h2>
+  <div class="quote-block">
+    <div class="quote-text">"How hard can it be?<br>I'll just use Notion."</div>
+  </div>
+  <div class="progress-dots">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+</div>
+
+<!-- ==================== SLIDE 3: ANGER ==================== -->
+<p class="slide-label">Slide 3 / 7 — Stage 2: Anger</p>
+<div class="slide slide-stage stage-anger">
+  <div class="brand-mark">PEERBOUND</div>
+  <div class="stage-number">2</div>
+  <div class="emoji-large">🤬</div>
+  <div class="stage-label">Stage 2</div>
+  <h2>Anger</h2>
+  <div class="quote-block">
+    <div class="quote-text">"WHY WON'T ZAPIER<br>CONNECT TO THIS"</div>
+  </div>
+  <div class="progress-dots">
+    <div class="dot"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+</div>
+
+<!-- ==================== SLIDE 4: BARGAINING ==================== -->
+<p class="slide-label">Slide 4 / 7 — Stage 3: Bargaining</p>
+<div class="slide slide-stage stage-bargaining">
+  <div class="brand-mark">PEERBOUND</div>
+  <div class="stage-number">3</div>
+  <div class="emoji-large">🙏</div>
+  <div class="stage-label">Stage 3</div>
+  <h2>Bargaining</h2>
+  <div class="quote-block">
+    <div class="quote-text">"If engineering gives me one sprint I will never ask for anything again"</div>
+  </div>
+  <div class="progress-dots">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+</div>
+
+<!-- ==================== SLIDE 5: DEPRESSION ==================== -->
+<p class="slide-label">Slide 5 / 7 — Stage 4: Depression</p>
+<div class="slide slide-stage stage-depression">
+  <div class="brand-mark">PEERBOUND</div>
+  <div class="stage-number">4</div>
+  <div class="emoji-large">😔</div>
+  <div class="stage-label">Stage 4</div>
+  <h2>Depression</h2>
+  <div class="slack-mock">
+    <div class="slack-header">
+      <span class="hash">#</span>
+      <span class="channel-name">customer-proof-ai</span>
+      <span class="members">1 member</span>
+    </div>
+    <div class="slack-body">
+      <div class="slack-empty-icon">💬</div>
+      <div class="slack-empty-text">
+        This is the very beginning of the<br>
+        <strong>#customer-proof-ai</strong> channel.<br><br>
+        No messages yet.
+      </div>
+    </div>
+    <div class="slack-input">
+      Message #customer-proof-ai
+    </div>
+  </div>
+  <div class="progress-dots">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot active"></div>
+    <div class="dot"></div>
+  </div>
+</div>
+
+<!-- ==================== SLIDE 6: ACCEPTANCE ==================== -->
+<p class="slide-label">Slide 6 / 7 — Stage 5: Acceptance</p>
+<div class="slide slide-stage stage-acceptance">
+  <div class="brand-mark">PEERBOUND</div>
+  <div class="stage-number">5</div>
+  <div class="emoji-large">🧘</div>
+  <div class="stage-label">Stage 5</div>
+  <h2>Acceptance</h2>
+  <div class="quote-block">
+    <div class="quote-text">"I should probably just watch<br>How I AI on April 23"</div>
+  </div>
+  <div class="progress-dots">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot active"></div>
+  </div>
+</div>
+
+<!-- ==================== SLIDE 7: CLOSING CTA ==================== -->
+<p class="slide-label">Slide 7 / 7 — CTA</p>
+<div class="slide slide-cta">
+  <div class="or-text">Skip the 5 stages. Start with the answer.</div>
+  <div class="cta-date">April 23, 2026</div>
+  <div class="cta-event">How I AI</div>
+  <h2>Learn how the best customer marketers actually use AI to find, create, and deliver proof.</h2>
+  <div class="cta-button">Register Now</div>
+  <div class="brand-footer">PEERBOUND</div>
+</div>
+
+</body>
+</html>
