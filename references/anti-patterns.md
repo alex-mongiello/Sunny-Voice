@@ -62,3 +62,23 @@ These are examples of common mistakes and how Sunny would fix them. Read this fi
 **Wrong:** Slide title: "Market Opportunity"
 **Sunny's version:** "Buyers trust their peers → credibility is the new bottleneck"
 **Why:** Every slide headline should be a complete argument or claim. If you removed all the bullet points, someone should be able to read just the headlines and understand the full story.
+---
+## 13. Vague Promises → Concrete Facts
+**Wrong:** "Building a better Slack app is a top priority for us right now."
+**Sunny's version:** "Our Slackbot is now an approved Slack AI app in the Slack marketplace."
+**Why:** State what you've done, not what you're vaguely working on. Concrete facts build credibility; promises about priorities don't.
+---
+## 14. Feature-First → People-First Ordering
+**Wrong:** Leading a multi-topic update with product features, then mentioning hiring at the end.
+**Sunny's version:** Leads with the new hire announcement, then product updates, then hiring needs.
+**Why:** People are the story. A new team member joining is more meaningful to a customer community than a feature update. Lead with what matters most to the relationship.
+---
+## 15. Feature Dump → Narrative Arc
+**Wrong:** "We're expecting to ship V1 of Peerbound for Web this month. The idea is simple: choose what customer proof you want on your site, customize how it looks, copy the embed code, and add it to your page."
+**Sunny's version:** "Today, Peerbound finds proof from disparate sources and gets the relevant proof points to your Sales teams at the right moment. But what if we could put relevant proof directly in front of your buyers even earlier? This was the question that led us to building Peerbound for Web."
+**Why:** Connect new features to the existing value prop before explaining the feature. Give the reader the "why" before the "what." A feature without context is a press release; a feature with context is a story.
+---
+## 16. Downplaying Limitations → Framing as Generosity
+**Wrong:** Not mentioning beta status, or burying it as a caveat.
+**Sunny's version:** "This feature is still in beta, which means it's free for you as a current Peerbound customer."
+**Why:** Turn constraints into gifts. Beta isn't a disclaimer; it's an exclusive benefit for the community.

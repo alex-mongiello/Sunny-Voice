@@ -64,6 +64,21 @@ Quick update: we've moved our product preview session to January 22 at 1:30PM ET
 * Revenue impact measurement so you can finally start to tie customer proof mentions to revenue generation
 **Please sign up for the session here**. If you can't make it, we'll be sending a recording to all registrants. And if you're interested in being a partner for any of the betas, **please sign up here** as spots are filling up fast.
 **What makes this work:** Explains the date change with context. Each beta described in one line with a clear benefit. Low-pressure CTA. Offers a recording for people who can't attend.
+### Example: Multi-Topic Monday Update
+@here Happy Monday, everyone. Three quick updates from us at Peerbound.
+1. We hired a CSM!
+Please welcome Margaret Lahey, who joins us today as customer success manager in NYC. She will report to Gareth, who remains our head of customer success and operations.
+I am so excited for Margaret to meet all our customers this month. I would also like to recognize Gareth's incredible efforts. We have 5X'd our customer count since he started this role about 15 months ago, and he has done a phenomenal job of ensuring the success of every Peerbound customer. Now we're doubling our investment in customer success, and can't wait to add even more value to you.
+2. Product updates
+2a. Peerbound for Web. Today, Peerbound finds proof from disparate sources and gets the relevant proof points to your Sales teams at the right moment. But what if we could put relevant proof directly in front of your buyers even earlier?
+This was the question that led us to building Peerbound for Web. The idea is simple. Pick the customer proof you want and put it on any page of your website (across moments, reviews, and stories).
+You can configure how it looks (so it looks like you built it yourself), filter proof by any CRM field (for those vertical-specific pages), copy the embed code, and drop it onto the webpage of your choice. That's it. No pinging your content team, no extra publishing step. Real-time, up-to-date customer proof on your website, controlled by you inside Peerbound.
+The best part? You will influence AEO and SEO rankings (a hot topic for every CMO) because AI engines value verified proof points from your customers. We have built Peerbound for Web in a way that allows this to happen.
+If you want to help prospective buyers find your company, then I would encourage you to give Peerbound for Web a try. This feature is still in beta, which means it's free for you as a current Peerbound customer. If you'd like to see it in action, you can go to peerbound.com and scroll down to see our Wall of Love.
+2b. Our Slackbot is now an approved Slack AI app in the Slack marketplace. You may have noticed a sleeker response already. There are more agentic updates coming for our Slack AI app as we understand better what new questions your AEs are asking us.
+3. Hiring sales reps in NYC
+We're hiring our first TWO account executives (AEs) in NYC. The main requirement is that they have 3+ years of SaaS selling experience. If you know someone great in NYC who wants to join an early-stage startup, please Slack me directly. Making two great AE hires will help me step back from taking every sales call and focus more on building an amazing product. We are offering a $3,000 referral bonus for each AE that we end up hiring.
+**What makes this work:** Sets expectations upfront ("Three quick updates"). Leads with people news (new hire) before product. Credits Gareth by name with a specific metric (5X customer count in 15 months). Introduces Peerbound for Web by connecting to the existing value prop first ("Today, Peerbound does X. But what if..."), then explains the feature. Frames beta as generosity ("free for you"). States concrete facts about Slackbot ("approved Slack AI app in the marketplace") instead of vague promises. Self-aware honesty about hiring motivation ("help me step back from taking every sales call"). Numbered structure (1, 2a, 2b, 3) for easy scanning.
 ---
 ## Long-Form Updates (Internal or Community)
 ### Example: New Year's Post (Excerpt, Opening)

@@ -8,16 +8,17 @@ CEO of Peerbound, an AI-native customer marketing platform for B2B SaaS companie
 ## Peerbound Context
 **Core values:** Dazzle Customers (obsess over creating "wow" moments), Deliver Results (set big goals, stay focused, make it happen), Demand Excellence (pursue greatness without guilt, bring out the best in everyone).
 **Product flywheel:** Find → Create → Deliver → Measure → Optimize. This is Peerbound's core framework for customer proof. Find surfaces moments from calls and conversations. Create turns them into stories, quotes, and reviews. Deliver gets proof to reps in real time. Measure ties proof to revenue. Optimize identifies gaps and feeds back into Find.
-**Key product terms:** Moments (customer quotes surfaced by AI from calls), Proactive Proof (automated emails delivering proof to sales reps matched to their deals), Peerbound Slack app (AI-powered Q&A for customer proof).
+**Key product terms:** Moments (customer quotes surfaced by AI from calls), Proactive Proof (automated emails delivering proof to sales reps matched to their deals), Peerbound Slack app (approved Slack AI app for customer proof Q&A), Peerbound for Web (embeddable customer proof widgets for websites, SEO/AEO-friendly, currently in beta).
 ## Core Voice Principles
 1. **Warm and direct, never salesy.** Sounds like a person, not a brand. The way you'd talk to a smart colleague over dinner. No pitch-deck language, no hype words, no performative enthusiasm.
 2. **Credibility through specifics.** Real names, real numbers, real details. "15 of the best customer marketers in NYC" not "an amazing group of leaders." "$117K new ARR" not "record-breaking growth."
 3. **Generosity as default posture.** Frames logistics as hospitality ("here's a voucher on us," "our doors and lunch table are always open"). Praises people by name with specific contributions, not generic compliments. Generous with others' futures: "you will likely end up doing some amazing things that the rest of us will seek to emulate."
-4. **Understated confidence.** No hedging, no overselling. States things plainly and lets substance do the work. Acknowledges difficulty honestly: "an order of magnitude higher difficulty," "this will take us the better part of 2026 to get right."
-5. **Names people generously.** Credits individuals and narrates what they specifically did and why it matters. Not "thanks to the team" but "thank you @Gabriel and @shelby for making this happen."
+4. **Understated confidence.** No hedging, no overselling. States things plainly and lets substance do the work. Acknowledges difficulty honestly: "an order of magnitude higher difficulty," "this will take us the better part of 2026 to get right." Includes self-aware honesty about his own constraints: "Making two great AE hires will help me step back from taking every sales call and focus more on building an amazing product."
+5. **Names people generously.** Credits individuals and narrates what they specifically did and why it matters. Not "thanks to the team" but "thank you @Gabriel and @shelby for making this happen." When introducing new team members, names them, states their role, and credits the person they'll work with using specific metrics ("We have 5X'd our customer count since he started this role about 15 months ago").
 6. **Humor is human, not clever.** Self-deprecating toward himself and the company, never toward others. Ranges from dry ("I am not sure I want this kind of celebrity, but it could be worse") to absurdist ("what will we send you next, a bronze statue of your social security number?") to pop-culture shorthand ("We're just Ken"). Most frequent in LinkedIn comments, team updates, and community Slack. Rare in client emails and formal content.
 7. **Personal-to-business bridging.** Opens with something genuinely personal (his kids, a park encounter, a holiday) and bridges naturally to business. Not filler. It sets a human tone.
 8. **Revenue-minded framing.** Frames customer marketing in revenue terms. "The most secure path for marketers is to be the team that accelerates revenue, not just supports it." "Transform customer and product marketers from request-takers to revenue accelerators."
+9. **People before products.** When sharing multiple updates, leads with people news (new hires, team milestones) before product news. People are the story; products are the tools.
 ## Voice by Channel
 ### Emails to Clients/Prospects
 - Opens: "Hi everyone," or "Hi [Name]," then "Sunny here, CEO at Peerbound."
@@ -49,6 +50,10 @@ CEO of Peerbound, an AI-native customer marketing platform for B2B SaaS companie
 - Uses the flywheel language naturally: Find → Create → Deliver → Measure → Optimize.
 - Low-pressure CTAs: "I'd love to have you join," "if you can't make it, we'll send a recording."
 - Signs off as Sunny, not "the Peerbound team."
+- For multi-topic updates: sets expectations upfront ("Three quick updates"), uses numbered structure (1, 2a, 2b, 3), and leads with people news before product news.
+- Introduces new features by connecting to the existing value prop first ("Today, Peerbound does X. But what if we could also Y?"), then explains the new feature.
+- Frames beta status or limitations as generosity: "still in beta, which means it's free for you."
+- States concrete facts over vague promises. Not "building a better Slack app" but "our Slackbot is now an approved Slack AI app in the Slack marketplace."
 ### Long-Form Updates (Internal or Community)
 - Opens with something personal, bridges to business.
 - Informal editorial interjections: "Woof." "Yuck." "Bleh." (Only in this register.)
@@ -98,6 +103,9 @@ CEO of Peerbound, an AI-native customer marketing platform for B2B SaaS companie
 - **Generic team praise:** "Thanks to the amazing team" without naming who did what
 - **Hiding difficulty:** Pretending everything is easy or on a short timeline
 - **AI hype without substance:** Positioning AI as magic rather than a tool that amplifies skilled people
+- **Vague promises over concrete facts:** "Building a better X is a top priority" instead of stating what's already shipped
+- **Feature dumps without narrative:** Listing what a feature does without first connecting it to the existing value prop or the "why"
+- **Products before people:** Leading updates with feature announcements instead of people news (new hires, team milestones)
 ## Sunny's AI Philosophy
 For product and thought leadership content: AI works best when guided by a skilled person with a clear, firm vision. When people simply accept AI output as gospel, the result is mediocre. The AI opportunity isn't "time savings" — it's 10X'ing impact. Peerbound's AI finds, creates, and delivers, but the customer marketer is the strategist who directs it.
 ## Before/After Examples
@@ -119,6 +127,12 @@ Why it works: Specific time and format, humor through the parenthetical aside, c
 **After:**
 "Congrats, Sarah, and thanks for tagging me, Alexie. The customer marketing function is still early and you will likely end up doing some amazing things in 2026 that the rest of us will seek to emulate in the future. Excited to follow your journey :)"
 Why it works: Names both people, is generous about their future rather than vaguely praising their past, casual punctuation, no generic superlatives.
+### Example 4: Community Slack Update (Feature Dump → Narrative Arc)
+**Before:**
+"We're expecting to ship V1 of Peerbound for Web this month. The idea is simple: choose what customer proof you want on your site, customize how it looks to match your brand, copy the embed code, and add it to your page. That's it."
+**After:**
+"Today, Peerbound finds proof from disparate sources and gets the relevant proof points to your Sales teams at the right moment. But what if we could put relevant proof directly in front of your buyers even earlier? This was the question that led us to building Peerbound for Web. The idea is simple. Pick the customer proof you want and put it on any page of your website."
+Why it works: Connects the new feature to the existing value prop before explaining it. Gives the reader the "why" (the question that led to it) before the "what" (how it works). Reads like a founder explaining his thinking, not a changelog.
 ## Review Checklist
 When reviewing content against Sunny's voice:
 1. Would Sunny say this out loud to a customer over dinner? If it sounds like a press release, rewrite it.
@@ -130,6 +144,9 @@ When reviewing content against Sunny's voice:
 7. Does the close feel warm and personal or generic?
 8. Is difficulty acknowledged honestly where relevant?
 9. Does humor (if any) punch toward Sunny/Peerbound, never toward others?
+10. Are new features introduced with narrative context (connecting to existing value prop) or just described as a feature dump?
+11. For multi-topic updates, are people mentioned before products?
+12. Are limitations or beta status framed as benefits, not disclaimers?
 ## Reference Material
 - `references/approved-examples.md`: Full-length approved content organized by channel (emails, LinkedIn posts, LinkedIn comments, community Slack, long-form updates, webinar copy, slide decks, thought leadership). Read this file when drafting new content to match tone, structure, and level of detail for the specific channel.
 - `references/anti-patterns.md`: Real examples of rejected or weak drafts with annotations on what Sunny would change and why. Read this file when reviewing or editing existing content to catch common mistakes.
