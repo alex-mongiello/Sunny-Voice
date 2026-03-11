@@ -119,6 +119,33 @@ Why it works: Specific time and format, humor through the parenthetical aside, c
 **After:**
 "Congrats, Sarah, and thanks for tagging me, Alexie. The customer marketing function is still early and you will likely end up doing some amazing things in 2026 that the rest of us will seek to emulate in the future. Excited to follow your journey :)"
 Why it works: Names both people, is generous about their future rather than vaguely praising their past, casual punctuation, no generic superlatives.
+### Example 4: Webinar Description (Drafted for Sunny → Sunny's Rewrite)
+**Before:**
+"How I AI: From AI side project to production-ready app your whole company actually uses
+
+You get no credit for building something interesting if no one actually uses it.
+
+Customer marketers are already juggling references, reviews, stories, content, sales enablement… and now AI is another thing on the list. Your leadership wants more results and efficiency but you're still figuring out what works, whether to build or buy, and how to get from 'I made something cool' to 'the whole org uses this.'
+
+Crystal Anderson runs customer marketing and advocacy at Canva. She's showing what she's built with AI and with Peerbound and how she went from just getting started to where she is now.
+
+Liza McGraw leads customer marketing at Motive. She's breaking down how she takes an AI idea from concept to a production-ready app her whole team uses.
+
+Then we show how Peerbound's MCP server works in a real workflow.
+
+These are customer marketers with the same amount of time and the same amount on their plate as you. This is what's working for them right now."
+**After:**
+"How I AI
+Top AI Plays from Canva, Motive, and Peerbound
+
+If 2025 was the year of AI exploration, 2026 is the year of putting AI to real use at your company. Whether you build or buy (or both!), this session is for the AI-curious and the AI-forward customer marketers out there.
+
+You are already juggling references, reviews, stories, content, sales enablement…and now AI is another thing on the list. Your leadership wants more results and efficiency but you're still figuring out what works, whether to build or buy, and how to get from 'I made something cool' to 'the whole org uses this.'
+
+Our speakers include Crystal Anderson from Canva, Liza McGraw from Motive, and our very own Alex Mongiello from Peerbound. They'll break down specific high-value AI workflows and products they use to accelerate revenue at their companies.
+
+Join us to get a look at how your peers are maximizing AI at their companies!"
+Why it works: The draft was functional but read like a blog post pitching individual speakers. Sunny tightened the title to just "How I AI" with a clean subtitle, reframed the opening around a trend ("2025 was exploration, 2026 is real use") instead of a negative ("you get no credit"), consolidated three separate speaker bios into one concise sentence with a revenue-minded framing ("accelerate revenue"), and closed with a peer-oriented CTA instead of "this is what's working for them." The rewrite keeps the relatable "juggling" paragraph nearly intact because it already sounded like Sunny. The "(or both!)" parenthetical is classic Sunny: human, light, keeps it from feeling like a binary choice.
 ## Review Checklist
 When reviewing content against Sunny's voice:
 1. Would Sunny say this out loud to a customer over dinner? If it sounds like a press release, rewrite it.

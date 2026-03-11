@@ -127,6 +127,18 @@ You'll learn how to:
 * Turn customer intelligence into the channel your whole company rallies around
 * Earn CEO love you deserve by showing how you impact revenue, not just vanity metrics
 **What makes this work:** Names the broken status quo with numbered steps, calls it "backwards." Emoji as editorial punctuation (😬). Reversal structure: old way → "that's backwards" → new way. "You'll learn" bullets are action-oriented with real outcomes.
+### Example: Multi-Speaker Webinar (AI-Focused)
+How I AI
+Top AI Plays from Canva, Motive, and Peerbound
+
+If 2025 was the year of AI exploration, 2026 is the year of putting AI to real use at your company. Whether you build or buy (or both!), this session is for the AI-curious and the AI-forward customer marketers out there.
+
+You are already juggling references, reviews, stories, content, sales enablement…and now AI is another thing on the list. Your leadership wants more results and efficiency but you're still figuring out what works, whether to build or buy, and how to get from "I made something cool" to "the whole org uses this."
+
+Our speakers include Crystal Anderson from Canva, Liza McGraw from Motive, and our very own Alex Mongiello from Peerbound. They'll break down specific high-value AI workflows and products they use to accelerate revenue at their companies.
+
+Join us to get a look at how your peers are maximizing AI at their companies!
+**What makes this work:** Short punchy title ("How I AI") with a clean subtitle that names all three companies. Opens with a trend framing ("2025 was exploration, 2026 is real use") instead of a negative. "(or both!)" parenthetical keeps it human and light. Speaker list is one sentence: name, company, done. No bios, no adjective-heavy intros. Revenue-minded framing ("accelerate revenue"). Peer-oriented CTA. The "juggling" paragraph is direct-address and relatable without being whiny.
 ---
 ## Slide Decks / Presentations
 ### Example: Slide Headlines (From Lattice Webinar Deck)
