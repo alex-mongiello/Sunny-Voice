@@ -6,22 +6,14 @@
 
 Hi everyone,
 
-Sunny here, CEO at Peerbound. I'm writing to invite you to our next live session: **How I AI: Top AI Plays from Canva, Motive, and Peerbound**.
+Sunny here, CEO at Peerbound.
 
-If 2025 was the year of AI exploration, 2026 is the year of putting AI to real use at your company. Whether you build or buy (or both!), this session is for the AI-curious and the AI-forward customer marketers out there.
+2025 was the year everyone experimented with AI. 2026 is the year you actually have to make it work. Your leadership wants more results and more efficiency, and you're over here trying to figure out whether to build or buy, what's real vs. hype, and how to go from "I made something cool in ChatGPT" to "the whole org uses this every day."
 
-Here's the reality: you're already juggling references, reviews, stories, content, sales enablement...and now AI is another thing on the list. Your leadership wants more results and efficiency, but you're still figuring out what works and how to get from "I made something cool" to "the whole org uses this."
+We put together a live session to help with exactly that. Crystal Anderson from Canva, Liza McGraw from Motive, and our own Alex Mongiello are going to break down the specific AI workflows and products they're using to accelerate revenue at their companies. Not theory. Not a product pitch. Just what's actually working and how they got there.
 
-Our speakers will break down specific, high-value AI workflows and products they use to accelerate revenue at their companies:
+If you're a customer marketer who is already juggling references, reviews, stories, content, and sales enablement and wondering how AI fits into all of it, this one's for you. And if you've already gone deep on AI and want to compare notes with peers who are doing the same, even better.
 
-- Crystal Anderson, Canva
-- Liza McGraw, Motive
-- Alex Mongiello, Peerbound
-
-No fluff, just the plays that are actually working right now.
-
-Join us to get a look at how your peers are maximizing AI at their companies. **Register here: [link]**
-
-Really looking forward to this one.
+**[Register here]**
 
 Sunny, on behalf of Team Peerbound
